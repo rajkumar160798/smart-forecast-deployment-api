@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
 import pandas as pd
-from forecast_utils import generate_forecast
+from .forecast_utils import generate_forecast
 
 app = FastAPI()
 
