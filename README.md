@@ -23,7 +23,7 @@ This is part of my series on **AI for Predictive Maintenance and Smart Automatio
 - FastAPI  
 - Pandas  
 - Uvicorn  
-- Docker (coming soon)
+- Docker 
 
 ---
 
@@ -57,8 +57,7 @@ to access the Swagger API UI.
 POST /predict
 
 ```json
-Copy
-Edit
+
 {
   "start_date": "2024-04-01 00:00:00",
   "periods": 48
@@ -68,8 +67,7 @@ Edit
 ## Sample Response:
 
 ```json
-Copy
-Edit
+
 [
   {
     "ds": "2024-04-01 01:00:00",
@@ -82,7 +80,7 @@ Edit
 
 ## Blog Post
 Read the full tutorial explaining how this API works:
-📘 Coming soon: Deploying AI Forecast Models with FastAPI + Docker
+[Deploying AI Forecast Models with FastAPI and  Docker](https://medium.com/@myakalarajkumar1998/deploying-ai-forecast-models-with-fastapi-and-docker-4e00673ce77f)
 
 ---
 
